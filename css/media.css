@@ -1,0 +1,224 @@
+@media (max-width: 1200px) {
+  #hero {
+    .hero {
+      .lamp {
+        top: 100px;
+        left: 250px;
+        width: 100%;
+        max-width: 100px;
+      }
+      .Learning {
+        width: 100%;
+        max-width: 400px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #header {
+    .header {
+      nav {
+        display: none;
+      }
+      .menu {
+        display: block;
+        color: black;
+      }
+    }
+  }
+  #hero {
+    .hero {
+      .lamp {
+        top: 100px;
+        left: 250px;
+        width: 100%;
+        max-width: 70px;
+      }
+      .Learning {
+        width: 100%;
+        max-width: 350px;
+      }
+      .hero-text {
+        h1 {
+          font-size: 45px;
+        }
+      }
+    }
+  }
+  #pricing {
+    .pricing {
+      .cards {
+        .card {
+          img {
+            width: 100%;
+            max-width: 160px;
+          }
+        }
+      }
+    }
+  }
+  #contact {
+    .contact {
+      img {
+        width: 100%;
+        max-width: 300px;
+      }
+    }
+  }
+
+  #Skills {
+    .Skills {
+      .blocks {
+        .block2 {
+          .listening {
+            img {
+              width: 100%;
+              max-width: 200px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  #hero {
+    .hero {
+      .lamp {
+        top: 80px;
+        left: 170px;
+        width: 100%;
+        max-width: 60px;
+      }
+      .Learning {
+        width: 100%;
+        max-width: 300px;
+      }
+    }
+  }
+
+  #about {
+    padding-block: 40px;
+    .about {
+      img {
+        width: 100%;
+        max-width: 220px;
+      }
+    }
+  }
+  #contact {
+    .contact {
+      img {
+        width: 100%;
+        max-width: 200px;
+      }
+    }
+  }
+  #pricing {
+    .pricing {
+      .cards {
+        .card {
+          button {
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 640px) {
+  #hero {
+    .hero {
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+      .hero-text {
+        align-items: center;
+      }
+
+      .lamp {
+        display: none;
+      }
+    }
+  }
+  #about {
+    .about {
+      flex-direction: column-reverse;
+      .adap {
+        display: block;
+      }
+      .about-text {
+        align-items: center;
+        text-align: center;
+        .after-adap {
+          display: none;
+        }
+      }
+      .date {
+        justify-content: space-between;
+
+        gap: 20px;
+      }
+    }
+  }
+  #pricing {
+    padding-block: 40px;
+    .pricing {
+      .cards {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        .card {
+          align-items: center;
+        }
+      }
+    }
+  }
+  #contact {
+    .contact {
+      flex-direction: column;
+      align-items: center;
+      .befor-adap {
+        display: none;
+      }
+      .after-adap {
+        display: block;
+      }
+      .contact-text {
+        text-align: center;
+        align-items: center;
+      }
+    }
+  }
+  #Skills {
+    .Skills {
+      .blocks {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        .Writing-Reading {
+          flex-direction: column;
+          align-items: center;
+        }
+        p {
+          width: 100%;
+          max-width: 350px;
+        }
+
+        .listening {
+          display: flex;
+          flex-direction: column-reverse;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 475px) {
+  #footer {
+    .footer {
+      gap: 15px;
+    }
+  }
+}
