@@ -303,9 +303,12 @@ button {
       .input-button {
         display: flex;
         gap: 15px;
+   
+
         input {
           border: 2px solid #8f95a5;
           border-radius: 9px;
+          padding: 10px;
         }
       }
     }
